@@ -6,7 +6,7 @@
     <title>Flexbox Layout</title>
     <style>
         /* Apply flexbox properties to the holder */
-        #holder {
+        .holder {
             display: flex; /* Display the items in a row */
             flex-wrap: wrap; /* Allow items to wrap to the next row if necessary */
             justify-content: space-between; /* Distribute items evenly along the row */
@@ -14,7 +14,7 @@
         }
 
         /* Optional: Add some spacing around each item for better readability */
-        #holder > * {
+        .holder > * {
             margin: 10px;
             padding: 10px;
             border: 1px solid #ccc;
@@ -24,7 +24,7 @@
     </style>
 </head>
 <body>
-    <div id="holder">
+    <div class="holder">
         <div>Item 1</div>
         <div>Item 2</div>
         <div>Item 3</div>
